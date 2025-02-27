@@ -1,0 +1,434 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Facundo Cuezzo!**"
+        },
+
+        "es": {
+            "title": "¡Saludos!",
+            "title_menu": "Sobre mí",
+            "title_long_prefix": "Hola...",
+            "title_long": "Soy **Facundo Cuezzo!**"
+        },
+
+        "fr": {
+            "title": "Salut !",
+            "title_menu": "À propos",
+            "title_long_prefix": "Salut...",
+            "title_long": "Je suis **Facundo Cuezzo!**"
+        },
+
+        "ko": {
+            "title": "환영합니다!",
+            "title_menu": "소개",
+            "title_long_prefix": "안녕하세요...",
+            "title_long": "저는 **Facundo Cuezzo** 입니다!"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "es": {},
+                "fr": {},
+                "ko": {}
+            },
+
+            "items": [
+                {
+                    "value": "Cupertino – CA",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "facuu.cuezzo@dev.com",
+                    "links": [
+                        {"href": "mailto:facuu.cuezzo@dev.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@facundoCuezzo",
+                    "links": [
+                        {"href": "https://github.com/facundoCuezzo"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."},
+                "es": {"title": "**Un poco** sobre mí..."},
+                "fr": {"title": "**Un peu** à propos de moi..."},
+                "ko": {"title": "저에 **대해 조금**..."}
+            },
+
+          "items": [
+    {
+        "icon": {
+            "img": "images/svg/logo.svg",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+        },
+        "locales": {
+            "en": {
+                "text": "<p>I am a developer with experience in <b>backend and frontend</b>, specializing in <b>C#, Java, JavaScript, TypeScript, and SQL</b>. I have worked on projects such as developing a <b>website</b> for the company <b>Elásticos Portuese</b> and a <b>sales system</b> for a Kiosco Vallejo.</p><p>My background as a <b>University Technician in Programming</b> allows me to adapt to various needs and technological challenges.</p><p>I look forward to collaborating <b>with you!</b></p>"
+            },
+            "es": {
+                "text": "<p>Soy un desarrollador con experiencia en <b>backend y frontend</b>, especializado en <b>C#, Java, JavaScript, TypeScript y SQL</b>. He trabajado en proyectos como el desarrollo de una <b>página web</b> para la empresa <b>Elásticos Portuese</b> y un <b>sistema de ventas</b> para Kiosco Vallejo.</p><p>Mi formación como <b>Técnico Universitario en Programación</b> me permite adaptarme a diversas necesidades y desafíos tecnológicos.</p><p>¡Espero con interés colaborar <b>contigo!</b></p>"
+            },
+            "fr": {
+                "text": "<p>Je suis un développeur expérimenté en <b>backend et frontend</b>, spécialisé en <b>C#, Java, JavaScript, TypeScript et SQL</b>. J'ai travaillé sur des projets tels que le développement d'un <b>site web</b> pour l'entreprise <b>Elásticos Portuese</b> et un <b>système de vente</b> pour un Kiosco Vallejo.</p><p>Ma formation de <b>Technicien Universitaire en Programmation</b> me permet de m'adapter à divers besoins et défis technologiques.</p><p>J'attends avec impatience de collaborer <b>avec vous !</b></p>"
+            },
+            "ko": {
+                "text": "<p>저는 <b>백엔드와 프론트엔드</b>에서 경험이 있는 개발자로, <b>C#, Java, JavaScript, TypeScript, SQL</b>에 전문성을 가지고 있습니다. <b>Elásticos Portuese</b> 회사의 <b>웹사이트</b> 개발과 <b>키오스크 판매 시스템</b>과 같은 프로젝트에서 작업한 경험이 있습니다.</p><p><b>프로그래밍 기술자</b>로서의 배경은 다양한 요구사항과 기술적 도전에 적응할 수 있게 해줍니다.</p><p>저는 <b>귀하와 협력하기를 기대합니다!</b></p>"
+            }
+        }
+    }
+]
+
+        },
+
+        {
+            "id": "testimonials",
+            "component": "ArticleTestimonials",
+            "config": {},
+            "locales": {
+                "en": {"title": "Client **testimonials**"},
+                "es": {"title": "Testimonios de **clientes**"},
+                "fr": {"title": "Témoignages de **clients**"},
+                "ko": {"title": "**고객** 추천사"}
+            },
+
+            "items": [
+                {
+                    "value": "Nancy Portuese",
+                    "links": [
+                        {"href": "https://linkedin.com"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-1.png",
+                        "fa": "fa-solid fa-user",
+                        "faColors": null
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "CEO at <b>Elásticos Portuese</b>",
+                            "text": "Working with Facundo was a transformative experience. His programming skills and dedication not only improved our project but also inspired the entire team."
+                        },
+                        "es": {
+                            "info": "CEO en <b>Elásticos Portuese</b>",
+                            "text": "Trabajar con Facundo fue una experiencia transformadora. Sus habilidades de programación y dedicación no solo mejoraron nuestro proyecto, sino que también inspiraron a todo el equipo."
+                        },
+                        "fr": {
+                            "info": "PDG de <b>Elásticos Portuese</b>",
+                            "text": "Travailler avec Facundo a été une expérience transformative. Ses compétences en programmation et son dévouement ont non seulement amélioré notre projet, mais ont également inspiré toute l'équipe."
+                        },
+                        "ko": {
+                            "info": "엘라스티코스 포르투에세  CEO",
+                            "text": "Facundo와의 협업은 변화를 가져오는 경험이었습니다. 그의 프로그래밍 기술과 헌신은 우리 프로젝트를 개선할 뿐만 아니라 팀 전체에 영감을 주었습니다."
+                        }
+                    }
+                },
+
+                {
+                    "value": "Emmanuel Gambarte",
+                    "links": [
+                        {"href": "https://github.com"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-3.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Lead Developer at <b>Elásticos Portuese</b>",
+                            "text": "Having Facundo on our team was an invaluable asset. His deep programming insights and mentorship not only elevated our projects but also empowered us to tackle every challenge with confidence and creativity."
+                        },
+                        "es": {
+                            "info": "Desarrollador Principal en <b>Elásticos Portuese </b>",
+                            "text": "Tener a Facundo en nuestro equipo fue un activo invaluable. Sus profundas ideas sobre programación y su mentoría no solo elevaron nuestros proyectos, sino que también nos empoderaron para enfrentar cada desafío con confianza."
+                        },
+                        "fr": {
+                            "info": "Développeur Principal chez <b>Elásticos Portuese </b>",
+                            "text": "Avoir Facundo dans notre équipe a été un atout inestimable. Ses connaissances approfondies en programmation et son mentorat ont non seulement élevé nos projets, mais nous ont également permis de relever chaque défi avec confiance."
+                        },
+                        "ko": {
+                            "info": "<b>Elásticos Portuese</b> 수석 개발자",
+                            "text": "우리 팀에 Facundo가 있다는 것은 귀중한 자산이었습니다. 그의 깊은 프로그래밍 통찰력과 멘토링은 우리의 프로젝트를 높이고 모든 도전에 자신감과 창의성으로 대응할 수 있게 해주었습니다."
+                        }
+                    }
+                },
+
+                {
+                    "value": "Karina Gómez",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-2.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Managing Director at <b>Kiosco Vallejo</b>",
+                            "text": "Collaborating with Facundo was a game changer for our development process. His expertise and problem-solving abilities were invaluable to our success."
+                        },
+                        "es": {
+                            "info": "Directora General en <b>Kiosco Vallejo</b>",
+                            "text": "Colaborar con Facundo fue un cambio de juego para nuestro proceso de desarrollo. Su experiencia y habilidades para resolver problemas fueron invaluables para nuestro éxito."
+                        },
+                        "fr": {
+                            "info": "Directrice Générale chez <b>Kiosco Vallejo</b>",
+                            "text": "Collaborer avec Facundo a été un tournant pour notre processus de développement. Son expertise et ses capacités à résoudre des problèmes ont été inestimables pour notre succès."
+                        },
+                        "ko": {
+                            "info": "키오스코 바예호",
+                            "text": "Facundo와의 협업은 우리의 개발 프로세스에 혁신을 가져왔습니다. 그의 전문성과 문제 해결 능력은 우리의 성공에 없어서는 안 될 요소였습니다."
+                        }
+                    }
+                },
+
+                {
+                    "value": "Andres C. Vallejo",
+                    "links": [
+                        {"href": "https://dribbble.com"}
+                    ],
+                    "icon": {
+                        "img": "images/pictures/person-4.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "info": "Head of <b>Vallejo Kiosk</b>",
+                            "text": "Facundo's attention to detail and his innovative thinking brought a fresh perspective to our design process. He truly elevated our team's work and helped us deliver results beyond expectations."
+                        },
+                        "es": {
+                            "info": "Jefe de <b>Kiosco Vallejo</b>",
+                            "text": "La atención al detalle de Facundo y su pensamiento innovador aportaron una nueva perspectiva a nuestro proceso de diseño. Realmente elevó el trabajo de nuestro equipo y nos ayudó a ofrecer resultados más allá de lo esperado."
+                        },
+                        "fr": {
+                            "info": "Chef du <b>Kiosque Vallejo</b>",
+                            "text": "L'attention aux détails de Facundo et sa pensée innovante ont apporté une nouvelle perspective à notre processus de design. Il a véritablement élevé le travail de notre équipe et nous a aidés à livrer des résultats au-delà des attentes."
+                        },
+                        "ko": {
+                            "info": "<b>발레호 키오스크의 책임자</b> ",
+                            "text": "Facundo의 세부 사항에 대한 주의와 혁신적인 사고는 우리 디자인 프로세스에 신선한 관점을 제공했습니다. 그는 팀의 작업을 향상시키고 기대 이상의 결과를 제공하는 데 큰 도움을 주었습니다."
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Personal **interests**"},
+                "es": { "title": "Intereses **personales**" },
+                "fr": { "title": "Intérêts **personnels** " },
+                "ko": { "title": "개인 **관심사**" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-paint-brush",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Digital Marketing",
+                            "info": ": Practicing advanced digital marketing techniques and continuously learning to stay up-to-date with the latest trends and tools in the industry."
+                        },
+                        "es": {
+                            "title": "Marketing digital",
+                            "info": "Practicando técnicas avanzadas de marketing digital y aprendiendo continuamente para estar al día con las últimas tendencias y herramientas del sector."
+                        },
+                        "fr": {
+                            "title": "Marketing Digital",
+                            "info": "Pratiquant des techniques avancées de marketing numérique et apprenant continuellement pour rester à jour avec les dernières tendances et outils du secteur."
+                        },
+                        "ko": {
+                            "title": "디지털 마케팅",
+                            "info":"고급 디지털 마케팅 기술을 연습하고 최신 트렌드 및 도구에 대해 최신 정보를 유지하기 위해 지속적으로 학습하고 있습니다."
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-guitar",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Play football",
+                            "info": ": I really enjoy sports and having a united and friendly team."
+                        },
+                        "es": {
+                            "title": "Jugar Futbol",
+                            "info": "Me gusta mucho el deporte y tener un equipo unido y amigable."
+                        },
+                        "fr": {
+                            "title": "Jouer au football",
+                            "info": "J'aime beaucoup le sport et avoir une équipe unie et amicale."
+                        },
+                        "ko": {
+                            "title": "축구를 하다",
+                            "info": "저는 스포츠를 매우 좋아하고 단합된 친근한 팀을 갖는 것을 좋아합니다."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-video",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "AI video editing",
+                            "info": "Learning to use AI tools to enhance my videos."
+                        },
+                        "es": {
+                            "title": "Edición de video con IA",
+                            "info": "Aprendiendo a usar herramientas de IA para mejorar mis videos."
+                        },
+                        "fr": {
+                            "title": "Montage vidéo avec IA",
+                            "info": "Apprendre à utiliser des outils d'IA pour améliorer mes vidéos."
+                        },
+                        "ko": {
+                            "title": "AI 영상 편집",
+                            "info": "AI 도구를 사용하여 내 영상을 향상시키는 방법 배우기."
+                        }
+                    }
+                },
+
+                
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-chart-line",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Investing",
+                            "info": "Learning the basics of stocks and personal finance."
+                        },
+                        "es": {
+                            "title": "Invertir",
+                            "info": "Aprendiendo los conceptos básicos de acciones y finanzas personales."
+                        },
+                        "fr": {
+                            "title": "Investir",
+                            "info": "Apprendre les bases des actions et des finances personnelles."
+                        },
+                        "ko": {
+                            "title": "투자",
+                            "info": "주식과 개인 재정의 기초 배우기."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-pencil-alt",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "UX design",
+                            "info": "Studying user experience principles."
+                        },
+                        "es": {
+                            "title": "Diseño UX",
+                            "info": "Estudiando los principios de la experiencia del usuario."
+                        },
+                        "fr": {
+                            "title": "Conception UX",
+                            "info": "Étudier les principes de l'expérience utilisateur."
+                        },
+                        "ko": {
+                            "title": "UX 디자인",
+                            "info": "사용자 경험 원칙을 공부하기."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-camera-retro",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Photo editing",
+                            "info": "Enhancing photos through creative editing techniques."
+                        },
+                        "es": {
+                            "title": "Edición de fotos",
+                            "info": "Mejorando fotos a través de técnicas creativas de edición."
+                        },
+                        "fr": {
+                            "title": "Retouche photo",
+                            "info": "Améliorer des photos avec des techniques de montage créatives."
+                        },
+                        "ko": {
+                            "title": "사진 편집",
+                            "info": "창의적인 편집 기술을 통해 사진을 향상시키기."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+
+        "es": {
+            "title": "Educación",
+            "title_long_prefix": "Esta es mi",
+            "title_long": "**Formación** Educativa"
+        },
+
+        "fr": {
+            "title": "Éducation",
+            "title_long_prefix": "C'est mon",
+            "title_long": "**Contexte** Éducatif"
+        },
+
+        "ko": {
+            "title": "교육",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**교육적** 배경"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "dist/images/pictures/unnamed.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                         "start": "2022-03-05",
+                         "end": "2024-12-20"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "University Technician in Programming",
+                            "info": "National Technological University",
+                            
+                            "text": "Graduated as a University Technician in Programming, specialized in deep learning and its real-world applications. During my training, I focused on frontend and backend development languages, including C#, MySQL, Java, TypeScript, among others. My passion for technology and commitment to academic excellence have been fundamental in my journey.",
+                            "tags": []
+                        },
+                        "es": {
+                            "title": "**Tecnico** Universitario en Programacion",
+                            "info": "Universidad Tecnologica Nacional",
+                            "text": "Graduado como Técnico Universitario en Programación, especializado en aprendizaje profundo y sus aplicaciones en el mundo real. Durante mi formación, me concentré en lenguajes para desarrollo frontend y backend, incluyendo C#, MySQL, Java, TypeScript, entre otros. Mi pasión por la tecnología y el compromiso con la excelencia académica han sido fundamentales en mi trayectoria.",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "Technicien Universitaire en Programmation",
+                            "info": "National Technological University",
+                            "text": "Diplômé comme Technicien Universitaire en Programmation, spécialisé en apprentissage profond et ses applications dans le monde réel. Pendant ma formation, je me suis concentré sur les langages de développement frontend et backend, y compris C#, MySQL, Java, TypeScript, entre autres. Ma passion pour la technologie et mon engagement envers l'excellence académique ont été fondamentaux dans mon parcours.",
+                            "tags": null
+                        },
+                        "ko": {
+                            "title": "프로그래밍 대학 기술자",
+                            "info": "하버드 대학교",
+                            "text": "프로그래밍 대학 기술자 학위 졸업생으로, 심층 학습 및 실제 응용 프로그램에 전문화되었습니다. 교육 과정에서 C#, MySQL, Java, TypeScript 등 프론트엔드 및 백엔드 개발 언어에 집중했습니다. 기술에 대한 열정과 학문적 우수성에 대한 헌신이 제 여정에 있어 중요한 역할을 했습니다.",
+                            "tags": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "dist/images/pictures/isologo-aticana-png.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "10/03/2022",
+                        "end": "3/12/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": " 1 th ,2th ,3th ,4th ,5th & 6 th & Final Adult Course in ATICANA. Level: B1+",
+                            "info": "ATICANA",
+                            "text": "Completed the 6th and final adult course in English, reaching a level of B1+. The course focused on developing listening, speaking, reading, and writing skills, as well as grammar and vocabulary. I am proud of my progress and excited to continue improving my English proficiency.",
+                            "tags": ["english", "language", "communication", "listening"]
+                        },
+                        "es": {
+                            "title": "1° Curso, 2° Curso, 3° Curso, 4° Curso, 5° Curso y 6° Curso y Curso Final para Adultos en ATICANA. Nivel: B1+.",
+                            "info": "ATICANA",
+                            "text": "Completé el 6to y último curso de adultos en inglés, alcanzando un nivel de B1+. El curso se centró en el desarrollo de habilidades de escucha, habla, lectura y escritura, así como gramática y vocabulario. Estoy orgulloso de mi progreso y emocionado por seguir mejorando mi dominio del inglés.",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "1er Cours, 2e Cours, 3e Cours, 4e Cours, 5e Cours et 6e Cours et Cours Final pour Adultes à ATICANA. Niveau: B1+.",
+                            "info": "Udacity",
+                            "text": "Terminé un programme intensif de Nanodiplôme axé sur le développement PHP, couvrant des compétences essentielles telles que la programmation backend, la gestion de bases de données et le déploiement d'applications web. Ce cours a fourni une base solide dans les pratiques modernes de PHP.",
+                            "tags": null
+                        },
+                        "ko": {
+                            "title": "1번째 코스, 2번째 코스, 3번째 코스, 4번째 코스, 5번째 코스 및 6번째 코스 및 ATICANA에서의 성인 코스 마지막. 레벨: B1+.",
+                            "info": "ATICANA",
+                            "text": "6번째 및 최종 성인 영어 수업을 완료하여 B1+ 수준에 도달했습니다. 이 수업은 듣기, 말하기, 읽기, 쓰기 능력, 문법 및 어휘 개발에 중점을 두었습니다. 나는 나의 진전에 자랑스럽고 영어 능력을 계속 향상시키기를 기대하고 있습니다.",
+                            "tags": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "dist/images/pictures/rolling.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "2024-06-08",
+                        "end": "2024-11-13"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Database Integration in Web Applications**",
+                            "info": "Rolling Code Tucumán",
+                            "text": "Obtained a certificate of completion for the Database Integration in Web Applications course. The course focused on integrating databases in web applications, using technologies such as Mongo DB, JavaScript, HTML, and CSS.",
+                            "tags": []
+                        },
+                        "es": {
+                            "title": "**Integracion** de base de datos en aplicaciones web",
+                            "info": "Rolling Code Tucumán",
+                            "text": "Obtuve un certificado de finalización del curso de Integración de base de datos en aplicaciones web. El curso se centró en la integración de bases de datos en aplicaciones web, utilizando tecnologías como Mongo DB, JavaScript, HTML y CSS.",
+                            "tags": []
+                        },
+                        "fr": {
+                            "title": "**Intégration** de base de données dans les applications web",
+                            "info": "Rolling Code Tucumán",
+                            "text": "J'ai obtenu un certificat de fin de cours pour le cours d'intégration de base de données dans les applications web. Le cours était axé sur l'intégration de bases de données dans les applications web, en utilisant des technologies telles que Mongo DB, JavaScript, HTML et CSS.",
+                            "tags": []
+                        },
+                        "ko": {
+                            "title": "웹 애플리케이션의 **데이터베이스 통합",
+                            "info": "Rolling Code Tucumán",
+                            "text": "웹 애플리케이션의 데이터베이스 통합 과정 수료증을 취득했습니다. 이 과정은 Mongo DB, JavaScript, HTML 및 CSS와 같은 기술을 사용하여 웹 애플리케이션에 데이터베이스를 통합하는 데 중점을 두었습니다.",
+                            "tags": []
+                        }
+                    }
+                }
+
+              
+            ]
+        }
+    ]
+}
+
+
+
